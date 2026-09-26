@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Generated experiment output and model caches
+final_results.csv
+results*.csv
+results/
+*.ckpt
+*.pt
+*.pth
